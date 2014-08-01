@@ -9,6 +9,13 @@
    - System.js allows for lazy loading modules and does not require a single compiled *app.js* style JS file
    *CONS:*
    - unlike Browserify System.js cannot load NPM modules directly from node_modules directory structure.
+** NOTE on Directory structure
+   - _js/lib_: holds all of the external JS libraries
+   - _js/package.json_: required to install local copy of react-tools for the JSX binary to be used for JSX compilation
+   - _js/init.js_: the System.js app loader configuration
+   - _js/app_: where the main application JS code lives
+   - _js/react_components_: where the original JSX components live in their raw state
+   - _js/app/components_: the target directory where JSX components get compiled as raw JS
 
 ** to compile JSX components
    install node modules
