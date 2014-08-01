@@ -1,0 +1,20 @@
+{
+  "name": "foobar",
+  "version": "0.0.1",
+  "description": "xx",
+  "main": "dist/system.js",
+  "author": "bogey",
+  "license": "MIT",
+  "dependencies": {
+    "es6-module-loader": "~0.7.1"
+  },
+  "devDependencies": {
+    "qunit": "^0.6.2",
+    "uglify-js": "~2.4.13",
+    "react": "^0.11.1",
+    "react-tools": "^0.11.1"
+  },
+  "scripts": {
+    "test": "qunit -c s:./dist/system.js -t ./test/test.js"
+  }
+}
