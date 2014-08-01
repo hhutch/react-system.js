@@ -4,11 +4,11 @@
    This is an example of writing ReactJS components as CommonJS modules.  
 
    *PROS:*
-*** System.js allows for mixing and matching these modules with ES6 and AMD modules.
-*** This method has an advantage over Browserify in that it does not require a compilation step to use CommonJS modules.
-*** System.js allows for lazy loading modules and does not require a single compiled *app.js* style JS file
+   - System.js allows for mixing and matching these modules with ES6 and AMD modules.
+   - This method has an advantage over Browserify in that it does not require a compilation step to use CommonJS modules.
+   - System.js allows for lazy loading modules and does not require a single compiled *app.js* style JS file
    *CONS:*
-*** unlike Browserify System.js cannot load NPM modules directly from node_modules directory structure.
+   - unlike Browserify System.js cannot load NPM modules directly from node_modules directory structure.
 
 ** to compile JSX components
    install node modules
