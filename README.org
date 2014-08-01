@@ -1,0 +1,9 @@
+
+*  React as common.js modules using System.js
+
+** to compile and watch the JSX components use
+   #+BEGIN_EXAMPLE
+   cd js;
+   npm install;
+   ./node_modules/.bin/jsx -w react_components app/components
+   #+END_EXAMPLE
