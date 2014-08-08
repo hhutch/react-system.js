@@ -1,5 +1,5 @@
 
-*  React as common.js modules using System.js
+*  React as common.js modules using [[https://github.com/systemjs/systemjs][System.js]]
 ** Summary
    This is an example of writing ReactJS components as CommonJS modules.  
 
